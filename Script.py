@@ -703,13 +703,13 @@ Also your tutorial will be Added Your Group..."""
     DEVELOPER_TXT = """
 special Thanks To ❤️ Developers -
 
--Dev 1 [Owner of this bot ]<a href='https://t.me/hari_813'>VJ</a>
+-Dev 1 [Owner of this bot ]<a href='https://t.me/hari_813'>MTP</a>
 
--Dev 2 <a href='https://t.me/mtpmasala'>VJ</a>
+-Dev 2 <a href='https://t.me/mtpmasala'>MTP</a>
 
--Dev 3 <a href='https://t.me/mtpmasala>VJ Botz</a>
+-Dev 3 <a href='https://t.me/mtpmasala>MTP</a>
 
-- Dev 4 <a href='https://t.me/mtpmasala'>TEAM VJ</a>
+- Dev 4 <a href='https://t.me/mtpmasala'>MTP</a>
 """
 
     RENAME_TXT = """
