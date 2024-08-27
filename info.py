@@ -74,7 +74,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'hvbots4u') # Public Ch
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moviesrequesttelugu_1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/mtpmasala')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'moviesrequesttelugu_1') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
