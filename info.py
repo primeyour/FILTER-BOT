@@ -52,7 +52,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI',"mongodb+srv://cristi7jjr:tRjSVaoSNQfeZ0Ik@cluster0.kowid.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "KeralaPrime")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cristi7jjr")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'KeralaPrime')
 
 # Premium And Referal Settings
@@ -74,7 +74,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'KeralaPrimeMovie') # P
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/DrMalluMovieSearch')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/KeralaLeech')
 TUTORIAL = environ.get('TUTORIAL', '')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/KeralaLeechHelp') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
