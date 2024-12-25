@@ -17,7 +17,7 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'KeralaPrime')
+SESSION = environ.get('SESSION', 'KeralaCaptain')
 API_ID = int(environ.get('API_ID', '20836266'))
 API_HASH = environ.get('API_HASH', 'bbdd206f92e1ca4bc4935b43dfd4a2a1')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
@@ -52,7 +52,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI',"mongodb+srv://primemastix:o84aVniXFmKfyMwH@cluster0.qgiry.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "KeralaPrime")
+DATABASE_NAME = environ.get('DATABASE_NAME', "primemastix")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'TomCollection')
 
 # Premium And Referal Settings
@@ -147,7 +147,7 @@ URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
-RENAME_MODE = bool(environ.get('RENAME_MODE', False)) # Set True or False
+RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or False
 
 # Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
 AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE',True)) # Set True or False
