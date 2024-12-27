@@ -323,8 +323,7 @@ async def start(client, message):
                 logger.warning(e, exc_info=True)
                 continue
             await asyncio.sleep(1) 
-        await sts.delete()
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️𝙄𝙈𝙋𝙊𝙍𝙏𝘼𝙉𝙏❗️️❗️❗️</u></b>\n\nᴛɪʜɪs ᴍᴏᴠɪᴇ ғɪʟᴇs/ᴠɪᴅᴇᴏs ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ<b><u>10 𝗠𝗶𝗻𝘀</u> ☢️ <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>𝗣𝗟𝗘𝗔𝗦𝗘 𝗙𝗢𝗥𝗪𝗔𝗥𝗗 𝗧𝗛𝗜𝗦 𝗔𝗟𝗟 𝗙𝗜𝗟𝗘𝗦/𝗩𝗜𝗗𝗘𝗢𝗦 𝙏𝙊 𝙔𝙊𝙐𝙍 𝗦𝗔𝗩𝗘𝗗 𝗠𝗘𝗦𝗦𝗔𝗚𝗘𝗦 𝗔𝗡𝗗 𝗦𝗧𝗔𝗥𝗧 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗧𝗛𝗘𝗥𝗘 @CJTOᗰ</i></b>")
+        await sts.delete()k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")
         await asyncio.sleep(600)
         for x in filesarr:
             await x.delete()
