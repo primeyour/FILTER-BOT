@@ -6,7 +6,7 @@
 class script(object):
     START_TXT = """<b><blockquote>Hᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
-Greetings 🚀 I am the most powerful AI Movie Bot your gateway to limitless cinematic adventures </b>"""
+ɢʀᴇᴇᴛɪɴɢs 🚀 I ᴀᴍ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴀɪ ᴍᴏᴠɪᴇ Bᴏᴛ ʏᴏᴜʀ ɢᴀᴛᴇᴡᴀʏ ᴛᴏ ʟɪᴍɪᴛʟᴇss ᴄɪɴᴇᴍᴀᴛɪᴄ ᴀᴅvᴇɴᴛᴜʀᴇs </b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
