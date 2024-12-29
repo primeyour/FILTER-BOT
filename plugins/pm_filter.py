@@ -508,7 +508,7 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
             ]
         )
-        btn.insert(0, 
+        btn.insert(0, [
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
             InlineKeyboardButton("ʏᴇᴀʀs", callback_data=f"years#{key}")
         ])
