@@ -1,5 +1,5 @@
 {
-    "name": "VJ-FILTER-BOT",
+    "name": "CJTOM",
     "description": "This is auto filter bot with many advanced features.",
     "stack": "container",
     "keywords": [
@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/VJBots/VJ-FILTER-BOT",
-    "repository": "https://github.com/VJBots/VJ-FILTER-BOT",
+    "Telegram": "https://t.me/KeralaCaptain",
+    "Telegram": "https://t.me/KeralaCaptain",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -40,7 +40,7 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures.",
-            "required": false
+            "required": true
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
@@ -55,11 +55,11 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://t.me/KeralaCaptain",
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "description": "Name of the database in mongoDB. For more help watch this video - https://t.me/KeralaCaptain",
             "required": false
         },
         "COLLECTION_NAME": {
