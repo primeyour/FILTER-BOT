@@ -72,7 +72,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'KeralaPrimeMovie') # P
 
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/CJMovieSearch')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/KeralaLeech')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/CJMovieSearch')
 TUTORIAL = environ.get('TUTORIAL', '')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'KeralaLeechHelp') # Support Chat Link Without https:// or @
 
