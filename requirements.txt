@@ -13,7 +13,7 @@ jinja2
 apscheduler
 pyshorteners
 colorama
-numpy
+NumPy
 wheel
 ujson
 wget
@@ -26,7 +26,7 @@ pymongo[srv]==3.12.3
 motor==2.5.1
 marshmallow==3.14.1
 umongo==3.0.1
-pyleaves==1.0.2
+PyLeaves==1.0.2
 youtube-search-python==1.4.6
 opencv-python-headless==4.7.0.68
 googletrans==3.1.0a0
@@ -41,4 +41,4 @@ dnspython==2.3.0
 ffmpeg-python>=0.2.0
 pyromod==1.5
 openai==0.25.0
-cinemagoer==2023.5.1
+git+https://github.com/Joelkb/cinemagoer
